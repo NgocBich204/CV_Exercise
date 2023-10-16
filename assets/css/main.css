@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-icon: rgb(0,150,136);
+}
+
+li, ul {
+  list-style: none;
+}
+
+i {
+  font-size: 1.3rem;
+  color: var(--color-icon);
+}
+
+.container .row .col-lg-4 .avatar-cv {
+  position: relative;
+}
+.container .row .col-lg-4 .avatar-cv img {
+  width: 100%;
+  height: 100%;
+}
+.container .row .col-lg-4 .content-cv .info-cv {
+  border-bottom: 1px solid #ccc;
+  padding-top: 25px;
+}
+.container .row .col-lg-4 .content-cv .info-cv li {
+  padding: 9px;
+}
+.container .row .col-lg-4 .content-cv .info-cv li i {
+  width: 30px;
+  margin-right: 15px;
+}
+.container .row .col-lg-4 .content-cv .skill {
+  margin-top: 20px;
+  padding: 10px;
+}
+.container .row .col-lg-4 .content-cv .skill h4 {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.container .row .col-lg-4 .content-cv .skill h4 i {
+  margin-right: 10px;
+}
+.container .row .col-lg-4 .content-cv .skill .progress-item {
+  padding-block: 10px;
+}
+.container .row .col-lg-4 .content-cv .skill .progress-item .progress-title {
+  color: gray;
+  margin-bottom: 10px;
+}
+.container .row .col-lg-4 .content-cv .skill .progress-item .progress {
+  border-radius: 10px;
+  height: 20px;
+}
+.container .row .col-lg-4 .content-cv .skill .progress-item .progress .progress-bar {
+  background-color: var(--color-icon);
+}
+.container .row .col-lg-8 .career-goals-cv {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 25px;
+}
+.container .row .col-lg-8 .career-goals-cv h3 {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.container .row .col-lg-8 .career-goals-cv h3 i {
+  font-size: 2rem;
+}
+.container .row .col-lg-8 .Myeducation-vc {
+  margin-top: 20px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 30px;
+}
+.container .row .col-lg-8 .Myeducation-vc h3 {
+  letter-spacing: 1px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+.container .row .col-lg-8 .Myeducation-vc h3 i {
+  font-size: 1.5rem;
+}
+.container .row .col-lg-8 .Myeducation-vc p {
+  color: gray;
+}
+.container .row .col-lg-8 .Myeducation-vc .info-myeducation-cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 30px;
+}
+.container .row .col-lg-8 .Work-experience {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container .row .col-lg-8 .Work-experience h3 {
+  padding-top: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.container .row .col-lg-8 .Work-experience h3 i {
+  font-size: 1.6rem;
+}
+.container .row .col-lg-8 .Work-experience span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 40px;
+  padding-bottom: 40px;
+}

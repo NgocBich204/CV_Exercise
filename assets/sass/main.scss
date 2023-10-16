@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --color-icon: rgb(0,150,136);
+  }
+li , ul {
+    list-style: none;
+}
+i {
+    font-size: 1.3rem;
+  color:var(--color-icon);
+}
+.container {
+    .row {
+        .col-lg-4 {
+            .avatar-cv {
+                position: relative;
+               
+                img {
+                    width: 100% ;
+                    height: 100%;
+                }
+            }
+               
+        .content-cv {
+           
+          .info-cv { 
+            border-bottom: 1px solid #ccc;
+            padding-top: 25px;
+            li {
+                padding: 9px;
+                i { width: 30px;
+                    margin-right: 15px;
+                }
+            }
+          }
+          .skill {
+            margin-top: 20px;
+            padding: 10px;
+            h4 {
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                i {
+                    margin-right: 10px;
+                }
+            }
+            .progress-item { 
+                padding-block: 10px;
+                .progress-title {
+                    color: gray;
+                    margin-bottom: 10px;
+                }
+                .progress {
+                    border-radius: 10px;
+                    height: 20px;
+                    .progress-bar {
+                    background-color:var(--color-icon);
+                  
+                }
+                }
+                
+            }
+          }
+         }
+        }
+        .col-lg-8 {
+            .career-goals-cv {
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                padding: 25px;
+                h3 {
+                    letter-spacing: 1px;
+                    margin-bottom: 20px;
+                    i {
+                        font-size: 2rem;
+                    }
+                }
+            }
+            .Myeducation-vc {
+                margin-top: 20px;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                margin-bottom: 30px;
+                h3 {
+                    letter-spacing: 1px;
+                    padding-top: 30px ;
+                    margin-bottom:40px ;
+                    i {
+                        font-size: 1.5rem;
+                    }
+                   
+                } p {
+                        color: gray;
+                    }
+                .info-myeducation-cv{
+                    display: flex;
+                justify-content: space-between;
+                margin-right: 30px;
+                }
+            }
+            .Work-experience {
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                h3 {
+                    padding-top: 20px;
+                    letter-spacing: 1px;
+                    margin-bottom: 20px;
+                    i {
+                        font-size: 1.6rem;
+                    }
+                }
+                span {
+
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 40px;
+                    padding-bottom: 40px;
+
+                }
+
+            }
+        }
+        
+    }
+}
